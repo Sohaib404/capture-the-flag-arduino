@@ -1,0 +1,36 @@
+Made by: Sohaib Khadri
+Project: Capture The Flag
+
+Accessories:
+ * Arduino Mega Board (AMG)
+ * USB Cable
+ * TFT Display
+ * Wires
+ * 2 Joystick
+ * 2 Buttons
+ * Breadboard
+
+Wiring Instructions:
+ * Arduino analog pin A8 should connect to joystick 1 VRy
+ * Arduino analog pin A9 should connect to joystick 1  VRx
+ * Arduino analog pin A10 should connect to joystick 2 VRy
+ * Arduino analog pin A11 should connect to joystick 2  VRx
+
+ * Connect the TFT display to the Arduino
+ * Arduino digital pin 53 should connect to Button 1
+ * Arduino digital pin 43 should connect to Button 2
+ * The other side of both buttons should be connected to ground, since these are PULL_UP buttons in our code
+ * Connect the +5V and Ground on both the joystick to the +5V and Ground on the Arduino
+ * The joystick SW does not need to be connected on either joystick
+
+Included Files:
+ - capture_the_flag.cpp
+ - Makefile
+ - README
+ - wiring_diagram.jpg
+
+Running Insctructions:
+* After following the wiring instructions navigate to the respective directory in the terminal and type in "make upload"
+* The game will boot up and you can use the touchscreen to navigate the menu and start the game
+* You can pause the game at anytime using the pause button
+* Have Fun!
